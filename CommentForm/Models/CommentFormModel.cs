@@ -16,7 +16,7 @@ namespace CommentForm.Models
         public string Comment { get; set; }
         
         //Display (Name = "...") will rename what is directly below/after it
-        [Display(Name ="Priority to Finish")]
+        [Display(Name ="Priority of Comment")]
         public int Priority { get; set; }
     }
 }
